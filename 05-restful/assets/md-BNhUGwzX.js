@@ -1,9 +1,0 @@
-import{_ as i}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-ZJTXabR-.js";import{o as p,b as d,w as a,g as s,d as u,m,ad as n,v as c,x as f,T as t}from"./modules/vue-U4KdHHdq.js";import{I as g}from"./slidev/default-SxihWALy.js";import{u as k,f as b}from"./slidev/context-KPOfnEKb.js";import"./modules/unplugin-icons-DqFNU4b1.js";import"./index-DL2JZu6S.js";import"./modules/shiki-CmfFBYOm.js";const P={__name:"05-restful.md__slidev_58",setup(x){const{$clicksContext:l,$frontmatter:r}=k();return l.setup(),(I,e)=>{const o=i;return p(),d(g,c(f(t(b)(t(r),57))),{default:a(()=>[e[1]||(e[1]=s("h1",null,"Demo",-1)),e[2]||(e[2]=s("br",null,null,-1)),e[3]||(e[3]=s("p",null,"spring-projects/spring-hateoas-examples",-1)),u(o,m({},{title:"",ranges:[]}),{default:a(()=>[...e[0]||(e[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"<dependency>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"    <groupId>org.springframework.boot</groupId>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"    <artifactId>spring-boot-starter-hateoas</artifactId>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"</dependency>")]),n(`
-`),s("span",{class:"line"},[s("span")]),n(`
-`),s("span",{class:"line"},[s("span",null,"<dependency>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"    <groupId>org.projectlombok</groupId>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"    <artifactId>lombok</artifactId>")]),n(`
-`),s("span",{class:"line"},[s("span",null,"</dependency>")])])],-1)])]),_:1},16),e[4]||(e[4]=s("div",{style:{"text-align":"right"}},"https://www.bilibili.com/video/BV1GE411G7hu?p=4 ",-1))]),_:1},16)}}};export{P as default};
