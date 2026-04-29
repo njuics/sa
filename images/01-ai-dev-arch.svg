@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8eeff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1" />
+      <stop offset="100%" style="stop-color:#4f46e5" />
+    </linearGradient>
+    <linearGradient id="archGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b" />
+      <stop offset="100%" style="stop-color:#d97706" />
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981" />
+      <stop offset="100%" style="stop-color:#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- AI Brain icon area -->
+  <g transform="translate(120, 80)" filter="url(#shadow)">
+    <rect width="180" height="200" rx="16" fill="white"/>
+    <rect width="180" height="6" rx="3" fill="url(#aiGrad)" y="0"/>
+    <text x="90" y="50" text-anchor="middle" font-size="40">🤖</text>
+    <text x="90" y="85" text-anchor="middle" font-size="16" font-weight="bold" fill="#4f46e5">AI 大模型</text>
+    <text x="90" y="115" text-anchor="middle" font-size="12" fill="#6b7280">Claude Code</text>
+    <text x="90" y="135" text-anchor="middle" font-size="12" fill="#6b7280">Cursor</text>
+    <text x="90" y="155" text-anchor="middle" font-size="12" fill="#6b7280">GitHub Copilot</text>
+    <text x="90" y="185" text-anchor="middle" font-size="11" fill="#9ca3af">理解需求 · 生成代码 · 重构系统</text>
+  </g>
+
+  <!-- Architecture area -->
+  <g transform="translate(500, 80)" filter="url(#shadow)">
+    <rect width="180" height="200" rx="16" fill="white"/>
+    <rect width="180" height="6" rx="3" fill="url(#archGrad)" y="0"/>
+    <text x="90" y="50" text-anchor="middle" font-size="40">🏗️</text>
+    <text x="90" y="85" text-anchor="middle" font-size="16" font-weight="bold" fill="#d97706">架构设计</text>
+    <text x="90" y="115" text-anchor="middle" font-size="12" fill="#6b7280">Monolith</text>
+    <text x="90" y="135" text-anchor="middle" font-size="12" fill="#6b7280">Layered → Microservices</text>
+    <text x="90" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Serverless → Cloud-Native</text>
+    <text x="90" y="185" text-anchor="middle" font-size="11" fill="#9ca3af">模式 · 演进 · 权衡</text>
+  </g>
+
+  <!-- Arrow: AI → Architecture -->
+  <g>
+    <path d="M310 180 Q400 140 490 180" fill="none" stroke="#a5b4fc" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polygon points="488,174 500,180 488,186" fill="#a5b4fc"/>
+    <text x="400" y="152" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="500">辅助设计决策</text>
+  </g>
+
+  <!-- Arrow: Architecture → AI -->
+  <g>
+    <path d="M490 210 Q400 250 310 210" fill="none" stroke="#fcd34d" stroke-width="2.5" stroke-dasharray="6,4"/>
+    <polygon points="312,204 300,210 312,216" fill="#fcd34d"/>
+    <text x="400" y="258" text-anchor="middle" font-size="11" fill="#d97706" font-weight="500">架构约束指导</text>
+  </g>
+
+  <!-- Code Output area (bottom center) -->
+  <g transform="translate(250, 320)" filter="url(#shadow)">
+    <rect width="300" height="140" rx="16" fill="white"/>
+    <rect width="300" height="6" rx="3" fill="url(#codeGrad)" y="0"/>
+    <text x="150" y="45" text-anchor="middle" font-size="40">💻</text>
+    <text x="150" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#059669">Spring 项目代码</text>
+    <text x="150" y="105" text-anchor="middle" font-size="12" fill="#6b7280">从 Monolith 到 Cloud-Native 的迭代演进</text>
+    <text x="150" y="128" text-anchor="middle" font-size="11" fill="#9ca3af">每种架构风格 → 一次系统重构</text>
+  </g>
+
+  <!-- Arrow: AI → Code -->
+  <g>
+    <path d="M210 290 Q260 310 300 340" fill="none" stroke="#a5b4fc" stroke-width="2.5"/>
+    <polygon points="296,334 304,344 306,332" fill="#a5b4fc"/>
+    <text x="225" y="325" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="500">生成</text>
+  </g>
+
+  <!-- Arrow: Architecture → Code -->
+  <g>
+    <path d="M590 290 Q540 310 500 340" fill="none" stroke="#fcd34d" stroke-width="2.5"/>
+    <polygon points="504,334 496,344 494,332" fill="#fcd34d"/>
+    <text x="575" y="325" text-anchor="middle" font-size="11" fill="#d97706" font-weight="500">约束</text>
+  </g>
+</svg>
