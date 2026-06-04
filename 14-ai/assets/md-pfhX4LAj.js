@@ -1,0 +1,15 @@
+import{_ as r}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-4QSJ_g0W.js";import{o as u,b as p,w as t,g as n,d,m as c,D as s,v as g,x as m,z as a}from"./modules/vue-D2XQG_Zi.js";import{I as f}from"./slidev/default-DkkAYGLO.js";import{u as h,f as v}from"./slidev/context-CWhhtyMn.js";import"./modules/unplugin-icons-Dh1c2lUi.js";import"./index-C4c9getm.js";import"./modules/shiki-C_lgq8_O.js";const k={class:"grid grid-cols-[6fr_4fr] gap-4 mt-2"},b={class:"text-xs"},B={__name:"14-ai.md__slidev_36",setup(_){const{$clicksContext:e,$frontmatter:o}=h();return e.setup(),(x,l)=>{const i=r;return u(),p(f,g(m(a(v)(a(o),35))),{default:t(()=>[l[3]||(l[3]=n("h1",null,"Harness · Observability（可观测性）",-1)),l[4]||(l[4]=n("p",null,"Agent 跑了 5 轮——结果不对，哪一步出了问题？",-1)),n("div",k,[n("div",null,[l[1]||(l[1]=n("p",null,[n("strong",null,"ReAct 天然就是结构化日志：")],-1)),n("div",b,[d(i,c({},{title:"",ranges:[]}),{default:t(()=>[...l[0]||(l[0]=[n("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[n("code",{class:"language-text"},[n("span",{class:"line"},[n("span",null,"[Round 1] Thought: 先查上月销量数据")]),s(`
+`),n("span",{class:"line"},[n("span",null,'          Action:  getSalesReport("2026-05")')]),s(`
+`),n("span",{class:"line"},[n("span",null,'          Observation: {worst: "商品X", sales: 23}')]),s(`
+`),n("span",{class:"line"},[n("span")]),s(`
+`),n("span",{class:"line"},[n("span",null,"[Round 2] Thought: 商品X最差，查详情")]),s(`
+`),n("span",{class:"line"},[n("span",null,'          Action:  getProductDetail("X")')]),s(`
+`),n("span",{class:"line"},[n("span",null,"          Observation: {price: 599, rating: 2.1}")]),s(`
+`),n("span",{class:"line"},[n("span")]),s(`
+`),n("span",{class:"line"},[n("span",null,"[Round 3] Thought: 价格高评价差，看竞品")]),s(`
+`),n("span",{class:"line"},[n("span",null,'          Action:  searchCompetitors("X")')]),s(`
+`),n("span",{class:"line"},[n("span",null,'          Observation: {competitor: "Y", price: 399}')]),s(`
+`),n("span",{class:"line"},[n("span")]),s(`
+`),n("span",{class:"line"},[n("span",null,"[Round 4] Thought: 信息够了，写方案")]),s(`
+`),n("span",{class:"line"},[n("span",null,"          Action:  生成最终回答")]),s(`
+`),n("span",{class:"line"},[n("span",null,"          Cost:    25000 tokens (4 rounds)")])])],-1)])]),_:1},16)])]),l[2]||(l[2]=n("div",null,[n("p",null,[n("strong",null,"可观测性追踪三个维度：")]),n("div",{class:"text-xs"},[n("table",null,[n("thead",null,[n("tr",null,[n("th",null,"维度"),n("th",null,"追踪什么")])]),n("tbody",null,[n("tr",null,[n("td",null,[n("strong",null,"推理链")]),n("td",null,"每轮 Thought——哪步推理偏了")]),n("tr",null,[n("td",null,[n("strong",null,"工具调用")]),n("td",null,"Action + Observation——返回是否符合预期")]),n("tr",null,[n("td",null,[n("strong",null,"成本")]),n("td",null,"每轮 token + 累计——防止失控")])])])]),n("br"),n("p",null,[n("strong",null,"出问题时："),s(" 看 Thought 就知道 LLM 的推理链在哪一步偏了。")]),n("p",null,[s("这也是 ReAct 比隐式推理更适合生产的原因——"),n("strong",null,"天然可审计"),s("。")])],-1))])]),_:1},16)}}};export{B as default};
