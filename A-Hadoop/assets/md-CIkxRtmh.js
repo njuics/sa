@@ -1,0 +1,17 @@
+import{_ as u}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-aoPOCgb8.js";import{o as d,b as f,w as a,g as s,d as i,m as t,D as n,v as k,x as g,z as p}from"./modules/vue-D2XQG_Zi.js";import{_ as m}from"./slidev/two-cols.vue_vue_type_script_setup_true_lang-Bbe2bsJd.js";import{u as c,f as v}from"./slidev/context-DMgNJcqb.js";import"./modules/unplugin-icons-Dh1c2lUi.js";import"./index-5kiAYIPG.js";import"./modules/shiki-C_lgq8_O.js";const A={__name:"A-Hadoop.md__slidev_4",setup(h){const{$clicksContext:o,$frontmatter:r}=c();return o.setup(),(b,l)=>{const e=u;return d(),f(m,k(g(p(v)(p(r),3))),{right:a(x=>[l[3]||(l[3]=s("br",null,null,-1)),i(e,t({},{title:"",ranges:[]}),{default:a(()=>[...l[2]||(l[2]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"             MapReduce / Spark / Hive")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      v")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        +-----------------------------+")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        |            YARN             |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        |      resource management    |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        +-----------------------------+")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      v")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        +-----------------------------+")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        |            HDFS             |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        |  NameNode + DataNode 集群   |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"        +-----------------------------+")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      |")]),n(`
+`),s("span",{class:"line"},[s("span",null,"                      v")]),n(`
+`),s("span",{class:"line"},[s("span",null,"              普通机器的本地磁盘")])])],-1)])]),_:1},16),l[4]||(l[4]=s("p",null,"今天我们不从“背 Hadoop 组件”开始。",-1)),l[5]||(l[5]=s("p",null,"我们先把一个最小 HDFS 跑起来：",-1)),l[6]||(l[6]=s("blockquote",null,[s("p",null,"先看到它如何使用，再拆它为什么这样设计。")],-1))]),default:a(()=>[l[7]||(l[7]=s("h1",null,"Hadoop 由什么组成？",-1)),l[8]||(l[8]=s("p",null,"早期 Hadoop 把两个核心能力放在一起：",-1)),i(e,t({},{title:"",ranges:[]}),{default:a(()=>[...l[0]||(l[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"HDFS      负责存储大文件")]),n(`
+`),s("span",{class:"line"},[s("span",null,"MapReduce 负责并行处理数据")])])],-1)])]),_:1},16),l[9]||(l[9]=s("p",null,"后来 Hadoop 生态里又加入 YARN，负责资源调度：",-1)),i(e,t({},{title:"",ranges:[]}),{default:a(()=>[...l[1]||(l[1]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"YARN      负责分配 CPU / 内存")])])],-1)])]),_:1},16)]),_:1},16)}}};export{A as default};
